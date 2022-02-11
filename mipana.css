@@ -1,0 +1,401 @@
+/*inicio*/
+*{
+    margin:0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: "DancingScript";
+    src: url("..//Proyecto/tipografias/Roboto/Roboto-Italic.ttf");
+}
+.fondoSalmon{
+    background-color: #ff4e00;
+    background-image: linear-gradient(to bottom, 315deg, #ff4e00 0%, #ec9f05 74%);
+
+}
+.logo1{
+    margin-left: 42%;
+    margin-top: 50%;
+}
+nav{
+    border-bottom: double 20px cornsilk;
+    border-left: double cornsilk;
+    border-right: double 20px cornsilk;
+    border-top: double 20px cornsilk;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+/*display*/
+ul li{
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(248, 126, 12);
+    margin: 10px;
+    padding: 5px 10px 5px;
+    position: sticky;
+}
+li:hover{
+    background-color: yellow;
+    color: rgb(236, 75, 26);
+}
+main{
+    background-color: rgb(255, 169, 71);
+}
+.intro{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+body{
+    font-family:"DancingScript";
+}
+h1{
+    background-color: orangered;
+    color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.DonAntonio{
+   height: auto;
+   margin-top: 2%;
+   margin-left: 33%;
+   border: solid;
+   border-color: blue;
+}
+h2{
+    background-color: rgba(194, 44, 44, 0.897);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.diseño{
+    background-color: #08f5e9;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.ig{
+    height: 60px;
+    margin-left:2%;
+}
+.igu{
+    height: 60px;
+    margin-left:2%;
+}
+.diseño{
+    width: 3s;
+    height: 3s;
+}
+.diseño:hover{
+width: 50%;
+height: 300px;
+}
+/*Estilo de la seción PANADERÍA*/
+.logone{ 
+    height: 20%;
+    width: 20%;
+    margin-left: 40%;
+}
+.BodyPanaderia{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);    
+}
+/*animacion*/
+.bg-5{
+       background: linear-gradient(135deg, rgb(227, 227, 227) 0%, rgb(93, 104, 116) 100%);
+     }
+    .animated-shadow {
+      color: #ffffff;
+      font: normal 140px Varela Round, sans-serif;
+      height: 140px;
+      left: 0;
+      letter-spacing: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      animation: move linear 2000ms infinite;
+      z-index: 2
+    }
+    /*Animación para rotar las sombras*/
+    @keyframes move {
+      0%{
+        text-shadow:
+          4px -4px 0 #da0641,
+          3px -3px 0 #da0641,
+          2px -2px 0 #da0641,
+          1px -1px 0 #da0641,
+          -4px 4px 0 #13f1fc,
+          -3px 3px 0 #13f1fc,
+          -2px 2px 0 #13f1fc,
+          -1px 1px 0 #13f1fc
+
+        ;
+      }
+      25% {
+        text-shadow:
+          -4px -4px 0 #13f1fc,
+          -3px -3px 0 #13f1fc,
+          -2px -2px 0 #13f1fc,
+          -1px -1px 0 #13f1fc,
+          4px 4px 0 #da0641,
+          3px 3px 0 #da0641,
+          2px 2px 0 #da0641,
+          1px 1px 0 #da0641
+        ;
+      }
+      50% {text-shadow:
+          -4px 4px 0 #da0641,
+          -3px 3px 0 #da0641,
+          -2px 2px 0 #da0641,
+          -1px 1px 0 #da0641,
+          4px -4px 0 #13f1fc,
+          3px -3px 0 #13f1fc,
+          2px -2px 0 #13f1fc,
+          1px -1px 0 #13f1fc;
+      }
+      75% {
+        text-shadow:
+          4px 4px 0 #13f1fc,
+          3px 3px 0 #13f1fc,
+          2px 2px 0 #13f1fc,
+          1px 1px 0 #13f1fc,
+          -4px -4px 0 #da0641,
+          -3px -3px 0 #da0641,
+          -2px -2px 0 #da0641,
+          -1px -1px 0 #da0641;
+      }
+      100%{
+          text-shadow:
+          4px -4px 0 #da0641,
+          3px -3px 0 #da0641,
+          2px -2px 0 #da0641,
+          1px -1px 0 #da0641,
+          -4px 4px 0 #13f1fc,
+          -3px 3px 0 #13f1fc,
+          -2px 2px 0 #13f1fc,
+          -1px 1px 0 #13f1fc;
+      }
+    }
+h2{
+    background-color: rgb(27, 207, 231);
+    color: black;
+    border: double;
+    text-align: center;
+}
+.promo1{
+height: 500px;
+margin-top: 2%;
+margin-left: 10%;
+border: dashed rgb(240, 2, 161);
+}
+.promo2{
+height: 500px;
+margin-top: 2%;
+margin-left: 6%;
+border: dashed rgb(240, 2, 161);
+}
+.promo3{
+height: 500px;
+margin-top: 2%;
+margin-left: 35%;
+margin-bottom: 5%;
+border: dashed rgb(240, 2, 161);
+}
+.fiambre{
+    text-align: center;
+    color: brown;
+    background-color: burlywood;
+    border: solid;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 300%;
+}
+.migasuno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: dashed rgb(240, 2, 161);
+}
+.migasdos{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 6%;
+    border: dashed rgb(240, 2, 161);
+}
+.migastres{
+height: 500px;
+margin-top: 2%;
+margin-left: 35%;
+margin-bottom: 6%;
+margin-top: 2%;
+border: dashed rgb(240, 2, 161);
+}
+.diseñodos{
+    background-color: #08f5e9;
+    text-align: center;
+}
+h3{
+    text-align: center;
+/* Estilos de la sección de las Pastas*/
+
+}
+.BodyPastas{
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+}
+.estilo{
+    border-style: groove;
+}
+.productosuno{
+    text-align: center;
+    background-color: white;
+    font-size: 200%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-style: groove;
+}
+.fideos{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(9, 248, 109, 0.438);  
+}
+.masa{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(9, 248, 109, 0.438);
+}
+.sorrentinosuno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(9, 248, 109, 0.438);
+}
+.raviolesuno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(9, 248, 109, 0.438);
+}
+.ig3{
+    height: 60px;
+    margin-left: 10%;
+}
+.FaceDos{
+    height: 60px;
+    margin-left: 40%;
+}
+/* Estilo de Pasteleía*/
+.BodyFondoDos{
+    --color1: rgb(252, 166, 8);
+  background-image: linear-gradient(var(--color1), #050632);
+  transition: 1s;
+  height: 100vh;
+}
+.BodyFondoDos:hover{
+  --color1: white;
+}
+.texto{
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(213, 9, 253);
+    background-color: pink;
+    margin-left: 2%;
+    margin-right: 35%;
+    font-size: 200%;   
+}
+.introuno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 31%;
+    border: solid rgba(109, 9, 175, 0.973);
+}
+.PastUno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(240, 6, 228, 0.61);
+}
+.PastDos{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 7%;
+    border: solid rgba(240, 6, 228, 0.61);
+}
+.PastTres{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 31%;
+    border: solid rgba(109, 9, 175, 0.973);
+}
+.Bake{
+    height: 60px;
+    margin-left: 40%;
+}
+.BakeOff{
+    height: 60px;
+    margin-left: 10%
+}
+footer{
+    border-style: solid;
+    border-color: rgb(12, 7, 0);
+    margin-bottom: 20%;
+}
+/*Estilo de Sucursales*/
+body{
+    background-color: #f39f86;background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+}
+h2{
+    background-color: black;
+    text-align: center;
+    color: yellowgreen;
+}
+.sucuno{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 31%;
+    border: solid rgba(9, 248, 109, 0.438);
+}
+h3{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 300%;
+    text-decoration: underline crimson;
+}
+.sucdos{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 10%;
+    border: solid rgba(9, 248, 109, 0.438);
+}
+.suctres{
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: solid rgba(9, 248, 109, 0.438); 
+}
+.ig4{
+    height: 60px;
+    margin-left: 10%;
+}
+.facek{
+    height: 60px;
+    margin-left: 40%;
+}
